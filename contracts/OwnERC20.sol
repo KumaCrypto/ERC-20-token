@@ -6,7 +6,7 @@ contract OwnERC20 {
 
     mapping(address => mapping(address => uint256)) private _allowances;
 
-    uint private _totalSupply = 100_000 * (10 **  _decimals); //
+    uint private _totalSupply = 100000;
 
     uint private _decimals = 18;
     string private _name = "IMISS";

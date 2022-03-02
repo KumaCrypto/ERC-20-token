@@ -6,7 +6,7 @@ contract OwnERC20 {
 
     mapping(address => mapping(address => uint256)) private _allowances;
 
-    uint private _totalSupply = 100000;
+    uint private _totalSupply;
 
     uint private _decimals = 18;
     string private _name = "IMISS";
@@ -15,7 +15,7 @@ contract OwnERC20 {
 
     constructor() {
         owner = msg.sender;
-        _balances[owner] = _totalSupply;
+        mint(msg.sender, 100000000 * (10 ** _decimals));
     }
 
     event Transfer(address indexed _from, address indexed _to, uint256 _value);

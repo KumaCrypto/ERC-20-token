@@ -1,3 +1,3 @@
     Rinkeby:
-    Token contract address: 0x6e4Fd6a8730Fc0ffF9Bc12FC07B1B1E6eFA39751
+    Token contract address: 0xD39d75358040227969CAD7B4d8E82d1F99ec66f0
     Deployed to block: 10236381
